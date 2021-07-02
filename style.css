@@ -36,13 +36,12 @@ body {
 }
 .menu_header {
     margin-top: 25px;
-    font-family: monospace;   
+    font-family: monospace;
 }
-.opacidad{
+.opacidad {
     background-color: rgba(0, 0, 0, 0.3);
     border-radius: 10px;
     height: 70px;
-
 }
 .logo {
     width: 100px;
@@ -227,7 +226,6 @@ ul button {
     font-size: 40px;
     font-weight: 700;
     padding: 20px;
-
 }
 
 .carousel-inner img {
@@ -261,7 +259,7 @@ ul button {
         opacity: 1;
     }
 }
-.Caruosel_2_responsive{
+.Caruosel_2_responsive {
     height: 100px;
     animation: movimiento_carousel 1s linear alternate;
     display: none;
@@ -278,38 +276,31 @@ ul button {
     animation: movimiento_carousel 1s linear alternate;
 }
 
-
 @media (min-width: 768px) {
-    .Caruosel_2_responsive{
+    .Caruosel_2_responsive {
         display: block;
     }
-
 }
 @media (min-width: 1400px) {
-    .Caruosel_2_responsive{
+    .Caruosel_2_responsive {
         margin-bottom: 150px;
     }
-    .carousel_3 h5{
+    .carousel_3 h5 {
         font-size: 40px;
         font-weight: 700;
-
     }
     .Caruosel_1 h5 {
         font-size: 40px;
         font-weight: 700;
-        
     }
-    .Caruosel_1 p{
+    .Caruosel_1 p {
         font-size: 20px;
     }
-
-
 }
 @media (min-width: 1900px) {
-    .Caruosel_2_responsive{
+    .Caruosel_2_responsive {
         margin-bottom: 350px;
     }
-
 }
 .ps {
     margin-top: 30px;
@@ -347,8 +338,7 @@ ul button {
     border: 0px;
 }
 .ps5_imagen img {
-    width: 300px
-
+    width: 300px;
 }
 .juegos_ps5 {
     margin-top: 20px;
@@ -358,16 +348,15 @@ ul button {
     width: 100%;
 }
 
-
-.info_juego p{
+.info_juego p {
     font-size: 17px;
     font-weight: 500;
 }
-.info_juego h5{
+.info_juego h5 {
     font-size: 25px;
     font-weight: 700;
 }
-.horizon_texto h3{
+.horizon_texto h3 {
     color: white;
     font-size: 30px;
     font-weight: 900;
@@ -377,11 +366,10 @@ ul button {
     font-size: 25px;
 }
 
-.horizon_texto_mediaqueries{
+.horizon_texto_mediaqueries {
     display: none;
-
 }
-.horizon_texto_mediaqueries h3{
+.horizon_texto_mediaqueries h3 {
     color: white;
     font-size: 45px;
     font-weight: 900;
@@ -392,223 +380,179 @@ ul button {
 }
 @media (min-width: 576px) {
     .ps5_imagen img {
-        width: 400px
-    
+        width: 400px;
     }
-
 }
 
 @media (min-width: 768px) {
-    .ps{
+    .ps {
         height: 900px;
-
     }
     .ps5_imagen img {
-        width: 600px
-    
+        width: 600px;
     }
-
 }
 @media (min-width: 992px) {
-    .ps{
+    .ps {
         height: 1100px;
     }
-    .horizon_texto_mediaqueries{
+    .horizon_texto_mediaqueries {
         display: block;
     }
-    .horizon_texto{
+    .horizon_texto {
         display: none;
     }
     .ps5_imagen img {
-        width: 700px
-    
+        width: 700px;
     }
 }
 @media (min-width: 1200px) {
-    .ps{
+    .ps {
         height: 1200px;
-
     }
-
 }
 @media (min-width: 1400px) {
-    .ps{
+    .ps {
         height: 1300px;
-
     }
     .ps5_imagen img {
-        width: 900px
-    
+        width: 900px;
     }
-
 }
-.xbox{
+.xbox {
     height: 800px;
     margin-top: 40px;
 }
 
-.xbox h1{
-
+.xbox h1 {
     color: #107c10;
     font-size: 50px;
     font-weight: 900;
     text-shadow: 1px 1px 5px rgb(0, 0, 0);
-
 }
-.imagen_xbox img{
+.imagen_xbox img {
     width: 100%;
-
 }
-.titulo_consola h3{
+.titulo_consola h3 {
     font-size: 30px;
     color: #107c10;
     font-weight: 700;
-    
-
 }
-.titulo_consola p{
+.titulo_consola p {
     font-size: 17px;
     font-weight: 700;
-
 }
-.yakuza{
+.yakuza {
     width: 100%;
     height: 850px;
     background: black;
     margin-top: 30px;
 }
-.yakuza video{
+.yakuza video {
     height: 400px;
 }
 
-.yakuza h3{
+.yakuza h3 {
     font-size: 30px;
     font-weight: 900;
 }
-.info_yakuza{
+.info_yakuza {
     background: black;
 }
-.info_yakuza h4{
+.info_yakuza h4 {
     font-size: 25px;
     font-weight: 900;
 }
-.info_yakuza p{
+.info_yakuza p {
     font-size: 17px;
-    
 }
-.img_superior{
+.img_superior {
     height: 100px;
     display: none;
 }
-.imagen_base{
+.imagen_base {
     height: 70px;
     display: none;
-    
 }
 
-.juegos_xbox{
+.juegos_xbox {
     margin-top: 30px;
     font-size: 25px;
     font-weight: 900;
-
 }
-.juegos_xbox h5{
-
+.juegos_xbox h5 {
     font-size: 25px;
     font-weight: 900;
 }
 
-.juegos_xbox p{
+.juegos_xbox p {
     font-size: 17px;
     font-weight: 700;
-    
 }
 
 @media (min-width: 576px) {
-    .xbox{
+    .xbox {
         height: 830px;
-
-    } 
-    .img_superior{
-        height: 150px;
-        display: block;
     }
-
+    .img_superior {
+        height: 150px;
+    }
 }
 @media (min-width: 768px) {
-    .xbox{
+    .xbox {
         height: 930px;
-
     }
-
 }
 @media (min-width: 992px) {
-    .xbox{
+    .xbox {
         height: 1030px;
-
     }
-    .juegos_xbox .col-12{
+    .juegos_xbox .col-12 {
         width: 50%;
     }
-    .imagen_base{
+    .imagen_base {
         height: 200px;
         display: block;
     }
-    .lanzamiento .col-6{
+    .imagen_base img {
+        width: 100%;
+    }
+    .lanzamiento .col-6 {
         width: 25%;
     }
-    .img_superior{
+    .img_superior {
         height: 200px;
+        display: block;
     }
-
-
-
+    .img_superior img {
+        width: 100%;
+    }
 }
 @media (min-width: 1200px) {
-    .xbox{
+    .xbox {
         height: 1130px;
-
     }
-    .img_superior{
+    .img_superior {
         height: 250px;
-        display: block;
     }
-
 }
 @media (min-width: 1400px) {
-    .xbox{
+    .xbox {
         height: 1350px;
-
     }
-    .imagen_base{
-        height: 300px;
-        display: block;
-    }
-    .img_superior{
+    .imagen_base {
         height: 300px;
     }
-
-
-
-
+    .img_superior {
+        height: 300px;
+    }
 }
 @media (min-width: 1900px) {
-    .xbox{
+    .xbox {
         height: 1500px;
-
     }
-
 }
 
-
-
-.footer_texto h5:hover{
+.footer_texto h5:hover {
     color: rgb(70, 121, 233);
-
 }
-
-
-
-
-
-
