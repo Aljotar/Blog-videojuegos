@@ -1,0 +1,22 @@
+.titulo {
+    height: 300px;
+    background-image: url(/imagenes/5268442.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.titulo img {
+    width: 100px;
+    height: 100px;
+}
+.titulo a {
+    font-size: 30px;
+    font-weight: 700;
+}
+.figure img{
+    transition: 1s;
+}
+.figure img:hover{
+    transform: scale(1.05);
+}

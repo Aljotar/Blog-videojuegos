@@ -1,0 +1,634 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(255, 255, 255);
+}
+
+/* FIN STYLE HEADER*/
+.head {
+    width: 100%;
+    height: 969px;
+    background-image: url(/imagenes/header3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-shadow: 1px 2px 5px rgb(70, 70, 70);
+    animation: movimiento 10s infinite linear alternate;
+}
+
+@keyframes movimiento {
+    from {
+        background-position: bottom left;
+    }
+    to {
+        background-position: top right;
+    }
+}
+
+.head a {
+    color: rgb(255, 255, 255);
+}
+
+.menu {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 30px;
+    display: block;
+    justify-content: space-between;
+}
+.menu_header {
+    margin-top: 25px;
+    font-family: monospace;   
+}
+.opacidad{
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    height: 70px;
+
+}
+.logo {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 40px 40px 40px 40px;
+}
+.logo:hover {
+    opacity: 0.5;
+}
+
+ul button {
+    margin: 10px;
+    box-shadow: 1px 1px 10px black;
+    width: 90px;
+    height: 50px;
+}
+.registro_login button {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    color: white;
+    width: 170px;
+    background-color: rgb(255, 1, 1);
+    animation: colorLogin 4s linear infinite;
+}
+
+/* ANIMACION BOTON INICIAR SESION*/
+
+@keyframes colorLogin {
+    20% {
+        background-color: rgb(168, 2, 2);
+    }
+    50% {
+        background-color: rgb(248, 0, 0);
+    }
+    70% {
+        background-color: rgb(168, 2, 2);
+    }
+    90% {
+        background-color: rgb(248, 0, 0);
+    }
+}
+
+.principal {
+    padding: 50px;
+}
+.text_animation {
+    color: white;
+    animation: aniPrincipal 6s linear;
+}
+
+/* ANIMACION TEXTO PRINCIPAL*/
+
+@keyframes aniPrincipal {
+    0% {
+        opacity: 0;
+    }
+    30% {
+        opacity: 0.5;
+    }
+    40% {
+        opacity: 1;
+    }
+}
+
+.social {
+    margin-right: 50px;
+}
+
+.social {
+    left: 0;
+    top: 350px;
+    z-index: 1500;
+}
+.social ul {
+    list-style: none;
+}
+.social ul li a {
+    height: 40px;
+    width: 50px;
+    margin: 5px;
+    padding: 5px;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    box-shadow: 10px 5px 5px black;
+    -webkit-transition: 0.3s ease;
+}
+
+.social ul li a:hover {
+    padding: 6px 37px;
+    background: black !important;
+}
+
+.modal_fondo {
+    animation: loginAni 2s linear alternate;
+    background-image: radial-gradient(
+        circle at center left,
+        rgb(46, 46, 46) 0%,
+        rgb(46, 46, 46) 6%,
+        rgb(41, 41, 41) 6%,
+        rgb(41, 41, 41) 27%,
+        rgb(36, 36, 36) 27%,
+        rgb(36, 36, 36) 42%,
+        rgb(31, 31, 31) 42%,
+        rgb(31, 31, 31) 63%,
+        rgb(25, 25, 25) 63%,
+        rgb(25, 25, 25) 64%,
+        rgb(20, 20, 20) 64%,
+        rgb(20, 20, 20) 71%,
+        rgb(15, 15, 15) 71%,
+        rgb(15, 15, 15) 100%
+    );
+}
+@keyframes loginAni {
+    from {
+        top: 100%;
+    }
+    to {
+        bottom: 30%;
+    }
+}
+
+.modal_login {
+    color: #fff;
+    background: none;
+    border: none;
+}
+
+.navbar_querie {
+    display: none;
+    background: none;
+}
+/* FIN STYLE HEADER*/
+
+/* MEDIA QUERIES HEADER*/
+
+@media (max-width: 1200px) {
+    .head {
+        animation: movimiento 12s infinite linear alternate;
+        height: 741px;
+    }
+}
+
+@media (max-width: 992px) {
+    .menu_header {
+        display: none !important;
+    }
+
+    .navbar_querie {
+        display: block;
+    }
+
+    .social {
+        display: none !important;
+    }
+
+    .head {
+        animation: movimiento 15s infinite linear alternate;
+        height: 741px;
+    }
+    .logo {
+        margin: auto;
+        width: 60px;
+        height: 60px;
+    }
+    .registro_login button {
+        width: 106px;
+        height: 44px;
+        font-size: 14px;
+    }
+}
+
+/* FIN MEDIA QUERIES HEADER*/
+
+.novedades {
+    height: 100px;
+    background: rgb(255, 255, 255);
+    box-shadow: 1px 5px 8px rgb(0, 0, 0);
+    font-size: 40px;
+    font-weight: 700;
+    padding: 20px;
+
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+.Caruosel_1 {
+    margin-bottom: 30px;
+    animation: movimiento_carousel 1s linear alternate;
+}
+
+.Caruosel_1 h5 {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: fantasy;
+}
+.Caruosel_1 p {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-family: monospace;
+}
+@keyframes movimiento_carousel {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.Caruosel_2_responsive{
+    height: 100px;
+    animation: movimiento_carousel 1s linear alternate;
+    display: none;
+}
+.Caruosel_2_responsive button {
+    color: #054b16;
+    background: #9bf00b;
+    border: none;
+    font-weight: 900;
+}
+.carousel_3 {
+    font-size: 15px;
+    font-family: monospace;
+    animation: movimiento_carousel 1s linear alternate;
+}
+
+
+@media (min-width: 768px) {
+    .Caruosel_2_responsive{
+        display: block;
+    }
+
+}
+@media (min-width: 1400px) {
+    .Caruosel_2_responsive{
+        margin-bottom: 150px;
+    }
+    .carousel_3 h5{
+        font-size: 40px;
+        font-weight: 700;
+
+    }
+    .Caruosel_1 h5 {
+        font-size: 40px;
+        font-weight: 700;
+        
+    }
+    .Caruosel_1 p{
+        font-size: 20px;
+    }
+
+
+}
+@media (min-width: 1900px) {
+    .Caruosel_2_responsive{
+        margin-bottom: 350px;
+    }
+
+}
+.ps {
+    margin-top: 30px;
+    height: 800px;
+    background: white;
+    box-shadow: 1px 1px 5px black;
+}
+.ps_logo img {
+    width: 55px;
+    height: 50px;
+    margin-top: 30px;
+}
+.ps_logo p {
+    font-size: 50px;
+    font-family: monospace;
+    font-weight: 900;
+}
+.ps5 {
+    list-style: none;
+}
+
+.seccion_ps5 {
+    width: 100%;
+    height: 1000px;
+}
+.ps5_presentacion {
+    border: 0px;
+}
+.ps5_presentacion h3 {
+    color: grey;
+    font-size: 50px;
+    font-weight: 700;
+}
+.ps5_imagen {
+    border: 0px;
+}
+.ps5_imagen img {
+    width: 300px
+
+}
+.juegos_ps5 {
+    margin-top: 20px;
+    box-shadow: 1px 1px 5px black;
+}
+.juegos_ps5 video {
+    width: 100%;
+}
+
+
+.info_juego p{
+    font-size: 17px;
+    font-weight: 500;
+}
+.info_juego h5{
+    font-size: 25px;
+    font-weight: 700;
+}
+.horizon_texto h3{
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+}
+.horizon_texto p {
+    color: white;
+    font-size: 25px;
+}
+
+.horizon_texto_mediaqueries{
+    display: none;
+
+}
+.horizon_texto_mediaqueries h3{
+    color: white;
+    font-size: 45px;
+    font-weight: 900;
+}
+.horizon_texto_mediaqueries p {
+    color: white;
+    font-size: 25px;
+}
+@media (min-width: 576px) {
+    .ps5_imagen img {
+        width: 400px
+    
+    }
+
+}
+
+@media (min-width: 768px) {
+    .ps{
+        height: 900px;
+
+    }
+    .ps5_imagen img {
+        width: 600px
+    
+    }
+
+}
+@media (min-width: 992px) {
+    .ps{
+        height: 1100px;
+    }
+    .horizon_texto_mediaqueries{
+        display: block;
+    }
+    .horizon_texto{
+        display: none;
+    }
+    .ps5_imagen img {
+        width: 700px
+    
+    }
+}
+@media (min-width: 1200px) {
+    .ps{
+        height: 1200px;
+
+    }
+
+}
+@media (min-width: 1400px) {
+    .ps{
+        height: 1300px;
+
+    }
+    .ps5_imagen img {
+        width: 900px
+    
+    }
+
+}
+.xbox{
+    height: 800px;
+    margin-top: 40px;
+}
+
+.logo_xbox{
+    
+}
+
+.xbox h1{
+
+    color: #107c10;
+    font-size: 70px;
+    font-weight: 900;
+    text-shadow: 1px 1px 5px rgb(0, 0, 0);
+
+}
+.imagen_xbox img{
+    width: 100%;
+
+}
+.titulo_consola h3{
+    font-size: 30px;
+    color: #107c10;
+    font-weight: 700;
+    
+
+}
+.titulo_consola p{
+    font-size: 17px;
+    font-weight: 700;
+
+}
+.yakuza{
+    width: 100%;
+    height: 850px;
+    background: black;
+    margin-top: 30px;
+}
+.yakuza video{
+    height: 400px;
+}
+
+.yakuza h3{
+    font-size: 30px;
+    font-weight: 900;
+}
+.info_yakuza{
+    background: black;
+}
+.info_yakuza h4{
+    font-size: 25px;
+    font-weight: 900;
+}
+.info_yakuza p{
+    font-size: 17px;
+    
+}
+.img_superior{
+    height: 100px;
+}
+.imagen_base{
+    height: 70px;
+    
+}
+
+.juegos_xbox{
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: 900;
+
+}
+.juegos_xbox h5{
+
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.juegos_xbox p{
+    font-size: 17px;
+    font-weight: 700;
+    
+}
+
+@media (min-width: 576px) {
+    .xbox{
+        height: 830px;
+
+    } 
+    .yakuza{
+
+    }
+    .img_superior{
+        height: 150px;
+    }
+
+}
+@media (min-width: 768px) {
+    .xbox{
+        height: 930px;
+
+    } 
+    .yakuza{
+
+        
+    }
+
+}
+@media (min-width: 992px) {
+    .xbox{
+        height: 1030px;
+
+    } 
+    .yakuza{
+        
+    }
+    .juegos_xbox .col-12{
+        width: 50%;
+    }
+    .imagen_base{
+        height: 200px;
+    }
+    .lanzamiento .col-6{
+        width: 25%;
+    }
+    .img_superior{
+        height: 200px;
+    }
+
+
+
+}
+@media (min-width: 1200px) {
+    .xbox{
+        height: 1130px;
+
+    } 
+    .yakuza{
+
+        
+    }
+    .img_superior{
+        height: 250px;
+    }
+
+}
+@media (min-width: 1400px) {
+    .xbox{
+        height: 1350px;
+
+    } 
+    .yakuza{
+
+        
+    }
+    .imagen_base{
+        height: 300px;
+    }
+    .img_superior{
+        height: 300px;
+    }
+
+
+
+
+}
+@media (min-width: 1900px) {
+    .xbox{
+        height: 1500px;
+
+    } 
+    .yakuza{
+
+        
+    }
+    
+
+}
+
+
+
+.footer_texto h5:hover{
+    color: rgb(70, 121, 233);
+
+}
+
+
+
+
+
+

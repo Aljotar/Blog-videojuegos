@@ -1,0 +1,785 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1bc88ff8fe.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&family=Suez+One&display=swap"
+        rel="stylesheet">
+    <title>LeroyJuegos-Consolas</title>
+</head>
+
+<body>
+
+    <header class="head ">
+        <!-- NAVBAR -->
+        <ul class="menu nav d-flex ">
+            <!-- NAVBAR MENOS DE 992px-->
+            <label class="navbar_querie btn btn-primary" for="menu" data-bs-toggle="offcanvas" href="#offcanvasExample"
+                role="button" aria-controls="offcanvasExample" style="
+            margin: 30px;
+            color: #a7afe4;
+            width: 50px;
+            height: 40px;
+            border: 3px solid;
+        "> ☰ </label>
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+                aria-labelledby="offcanvasExampleLabel">
+                <div class="offcanvas-header bg-danger">
+                    <h5 class="offcanvas-title" id="offcanvasExampleLabel"></h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body"
+                    style="background-image: url(/imagenes/ps5.jpg); background-repeat: no-repeat;">
+                    <!-- MENU    DENTRO  DEL  offcanvas  -->
+                    <div>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/nosotros/nosotros.html.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="articulos/articulos.html">Articulos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/contacto/contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/registro.html">Registro</a>
+                        </li>
+                    </div>
+                    <ul class="d-flex" style="list-style: none; margin-top: 90%; padding-left: 60px;">
+                        <!-- Facebook -->
+                        <li><a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998;" href="#!"
+                                role="button"><i class="fab fa-facebook-f"></i></a></li>
+
+                        <!-- Twitter -->
+                        <li><a class="btn btn-primary btn-floating m-1" style="background-color: #55acee;" href="#!"
+                                role="button"><i class="fab fa-twitter"></i></a></li>
+
+                        <!-- Google -->
+                        <li><a class="btn btn-primary btn-floating m-1" style="background-color: #dd4b39;" href="#!"
+                                role="button"><i class="fab fa-google"></i></a></li>
+
+                        <!-- Instagram -->
+                        <li><a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac;" href="#!"
+                                role="button"><i class="fab fa-instagram"></i></a></li>
+                        <!-- Whatsapp -->
+                        <li><a class="btn btn-primary btn-floating m-1" style="background-color: #54be5d;" href="#!"
+                                role="button"><i class="fab fa-whatsapp"></i>
+                                </i></a></li>
+                    </ul>
+                </div>
+
+            </div>
+            <!-- FIN NAVBAR MENOS DE 992px-->
+            <!-- NAVBAR LOGO Y MENU-->
+            <img class="logo" src="/imagenes/logo.jpg">
+            <div class="menu_header d-flex" style="margin-left: 60px;">
+                <div class="opacidad d-flex">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/nosotros/nosotros.html.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="articulos/articulos.html">Articulos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contacto/contacto.html">Contacto</a>
+                    </li>
+                </div>
+            </div>
+            <!-- Modal LOGIN -->
+            <div class="registro_login d-flex mt-3">
+                <button type="button" class="btn btn-rounded" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">Iniciar Sesión</button>
+
+                </button>
+        </ul>
+        <!-- TEXTO PRINCIPAL -->
+        <div class="principal d-flex justify-content-center">
+            <div class="text_animation text-center">
+                <h1 class="mb-3 d-flex justify-content-center">LEROY<h1>
+                        <h4 class="mb-3 text-center">Noticias y ofertas sobre productos y consolas</h4>
+            </div>
+        </div>
+        <!-- Section: REDES SOCIALES-->
+        <div class="social d-flex">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+                <ul>
+                    <!-- Facebook -->
+                    <li><a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998;" href="#!"
+                            role="button"><i class="fab fa-facebook-f"></i></a></li>
+
+                    <!-- Twitter -->
+                    <li><a class="btn btn-primary btn-floating m-1" style="background-color: #55acee;" href="#!"
+                            role="button"><i class="fab fa-twitter"></i></a></li>
+
+                    <!-- Google -->
+                    <li><a class="btn btn-primary btn-floating m-1" style="background-color: #dd4b39;" href="#!"
+                            role="button"><i class="fab fa-google"></i></a></li>
+
+                    <!-- Instagram -->
+                    <li><a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac;" href="#!"
+                            role="button"><i class="fab fa-instagram"></i></a></li>
+                    <!-- Whatsapp -->
+                    <li><a class="btn btn-primary btn-floating m-1" style="background-color: #54be5d;" href="#!"
+                            role="button"><i class="fab fa-whatsapp"></i>
+                            </i></a></li>
+                </ul>
+            </section>
+            <!-- Section: Social media -->
+        </div>
+    </header>
+    <!-- Button trigger modal -->
+    <!-- MODAL DEL LOGIN -->
+    <div class="modal_fondo modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal_login modal-content" style="align-items: center;">
+                <div class="modal-header text-center" style="
+                color: width: ;;
+                font-size: 15px;
+                font-family: monospace;">
+                    <h5 class="modal-title" id="exampleModalLabel">Iniciar sesión</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center" style="
+                color: width;
+                font-size: 15px;
+                font-family: monospace; 
+                align-items: center;">
+                    <form>
+                        <!-- Email input -->
+                        <div class="form-outline mb-4">
+                            <input type="email" id="form1Example1" class="form-control" />
+                            <label class="form-label" for="form1Example1">Email</label>
+                        </div>
+                        <!-- Password input -->
+                        <div class="form-outline mb-4">
+                            <input type="password" id="form1Example2" class="form-control" />
+                            <label class="form-label" for="form1Example2">Contraseña</label>
+                        </div>
+                        <!-- 2 column grid layout for inline styling -->
+                        <div class="row mb-4">
+                            <div class="col d-flex justify-content-center">
+                                <!-- Checkbox -->
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="form1Example3"
+                                        checked />
+                                    <label class="form-check-label" for="form1Example3"><strong> Recordarme
+                                        </strong></label>
+                                </div>
+                            </div>
+                            <div class="col" style="
+                            font-size: 15px;">
+                                <!-- Simple link -->
+                                <p><strong>Olvidaste la contraseña?</strong></p>
+                            </div>
+                        </div>
+                        <!-- Submit button -->
+                        <button type="submit" class="btn btn-danger btn-block">Ingresar</button>
+                        <a type="submit" class="btn btn-danger btn-block" href="/registro.html">Registro</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Section: NOVEDADES-->
+    <div class="novedades">
+        <p>Novedades</p>
+    </div>
+    <section class="">
+        <!-- Section: CAROUSEL-->
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/imagenes/d3b5f885-30cd-4833-929f-467c1f051fef.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-flex justify-content-end">
+                        <div class="card Caruosel_2_responsive"
+                            style="width: 18rem;height: 23rem;background-color: rgb(37, 37, 37);">
+                            <div class="card-body">
+                                <h5 class="card-title">Psychonauts 2</h5>
+                                <p class="card-subtitle mb-2">Disponible el 25 de agosto de 2021</p>
+
+                                <button class="btn btn-white" type="button">RESERVAR AHORA ></button>
+                                <div>
+                                    <i class="fab fa-xbox p-4">
+                                        <p>GAME PASS</p>
+                                    </i>
+                                </div>
+                                <p class="p-4">Analisis y videos</p>
+                                <button class="btn btn-white" type="button">VER MÁS ></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <video src="/Videos/demons-souls-animated-desktop-hero-01-en-25jan21.mp4" type="video/mp4" autoplay
+                        loop class="d-block w-100" alt="..."></video>
+                    <div class="carousel_3 carousel-caption carousel-caption d-none d-md-block"
+                        style="background-color: rgba(0, 0, 0, 0.3)">
+                        <h5>Demon’s Souls</h5>
+                        <p>De PlayStation Studios y Bluepoint Games llega un remake del clásico de PlayStation
+                            Demon's
+                            Souls. Completamente reconstruido desde cero y mejorado con maestría, este remake
+                            presenta
+                            los horrores de una tierra de fantasía oscura saturada de niebla a toda una nueva
+                            generación
+                            de jugadores. Aquellos que enfrentaron sus pruebas y tribulaciones antes, pueden una vez
+                            más
+                            desafiar a la oscuridad en calidad visual impresionante con desempeño increíble.</p>
+                        <p>RESUMEN DEL JUEGO
+                            Completamente rediseñada, esta nueva versión te invita a experimentar una inquietante
+                            historia y el combate despiadado de Demon’s Souls™.</p>
+                        <button class="btn btn-danger" type="button">Saber más ></button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <video src="/Videos/dualsense-new-colors-video-hero-01-ps5-24may21$en.mp4" class="d-block w-100"
+                        type="video/mp4" autoplay loop></video>
+                    <div class="Caruosel_1 carousel-caption d-none d-md-block">
+                        <h5>Enciende tus noches de juegos</h5>
+                        <p>Dos nuevos diseños de inspiración galáctica, el rojo cósmico y el negro de media noche, se
+                            unen al plantel del control inalámbrico DualSense™.</p>
+
+                        <button class="btn btn-danger" type="button">Comprar ahora</button>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <!-- Section: PlayStation-->
+    <section class="ps">
+        <div class="ps_logo text-center" style="
+        margin: 30px;
+    ">
+            <img id="ps5" src="/imagenes/7-74293_la-siguiente-playstation-playstation-4-logo-png.png" alt="">
+            <p>PlayStation</p>
+        </div>
+        <!-- Section: PS5-->
+        <div class="ps5 list-group text-center">
+            <div class="ps5_presentacion list-group-item mt-4">
+                <h3>Consola PlayStation 5</h3>
+                <p>Vive una nueva generación de juegos increíbles de PlayStation.</p>
+                <button class="btn btn-primary" type="button" style="border-radius: 40px;">MÁS INFORMACION</button>
+            </div>
+            <div class="ps5_imagen list-group-item">
+                <div class="card container" style="border: none; align-items: center;">
+
+                    <img src="/imagenes/consolaps5.jpg" alt="">
+                </div>
+            </div>
+    </section>
+    <!-- Section: Juegos PlayStation-->
+    <section class="juegos_ps5 bg-dark">
+        <div class="card" style="width: 100; border: none;">
+            <div class="card-img-overlay d-flex list-group text-white text-center"
+                style="background: rgba(8, 8, 8, 0.3)">
+                <div class="horizon_texto">
+                    <h3 class="mt-4">Horizon Forbidden West</h3>
+                    <p>Sony Interactive Entertainment</p>
+                    <button class="btn btn-danger container" style="width: 150px;" type="button">Conocer más</button>
+                </div>
+                <div class="horizon_texto_mediaqueries">
+                    <h3 class="mt-4">Horizon Forbidden West</h3>
+                    <p>Sony Interactive Entertainment</p>
+                    <p>Fecha de lanzamiento: Por confirmer</p>
+                    <button class="btn btn-danger container" style="width: 150px;" type="button">Conocer más</button>
+                    <div class="mt-4">
+                        <h4>RESUMEN DEL JUEGO</h4>
+                        <p>Únete a Aloy mientras desafía el Oeste Prohibido, una frontera majestuosa, aunque peligrosa,
+                            en
+                            la que se ocultan nuevas y misteriosas amenazas.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Section: Juego HORIZON-->
+            <video src="/Videos/horizon-forbidden-west-hero-video-01-en-20oct20.mp4" type="video/mp4" autoplay
+                loop></video>
+        </div>
+        <p class="d-flex" style="
+        justify-content: center;margin-top: 30px;
+    ">
+            <a class="btn btn-outline-secondary" data-bs-toggle="collapse" href="#collapseExample" role="button"
+                aria-expanded="false" aria-controls="collapseExample">
+                INFORMACION SOBRE EL JUEGO
+            </a>
+            <!--    Collapse Info del juego       -->
+        </p>
+        <div class="collapse" id="collapseExample">
+            <div class="card card-body list-group text-center text-white bg-dark"
+                style="font-size: 12px; align-items: center;">
+                <ul class="list-group list-group-horizontal text-center">
+                    <li class="list-group-item" style="
+                    background: #212529;
+                    color: white;
+                    border: none;
+                    width: 149px;
+
+                ">Plataforma:</li>
+                    <li class="list-group-item" style="
+                    background: #212529;
+                    color: white;
+                    border: none;
+                ">PS5 PS4</li>
+
+                </ul>
+                <ul class="list-group list-group-horizontal text-center">
+                    <li class="list-group-item" style="
+                    background: #212529;
+                    color: white;
+                    border: none;
+                ">Fecha de lanzamiento:</li>
+                    <li class="list-group-item" style="
+                    background: #212529;
+                    color: white;
+                    border: none;
+                ">Sin confirmar</li>
+
+                </ul>
+                <ul class="list-group list-group-horizontal text-center">
+                    <li class="list-group-item" style="
+                    background: #212529;
+                    color: white;
+                    border: none;
+                ">Género:</li>
+                    <li class="list-group-item" style="
+                    background: #212529;
+                    color: white;
+                    border: none;
+                    width: 149px;
+
+                ">Acción-Aventura-RPG</li>
+                </ul>
+                <div class="info_juego container d-flex flex-wrap">
+                    <div class="row text-center">
+                        <div class="col-6">
+                            <div class="card bg-dark text-white" style="border: 0px;">
+                                <img src="/imagenes/horizon-forbidden-west-screenshot-05-disclaimer-02oct20.png"
+                                    class="card-img" alt="...">
+                                <div class="card-body bg-dark">
+
+                                    <h5 class="card-title text-white">Explora un enorme mundo abierto</h5>
+                                    <p class="card-text text-white">Descubre tierras lejanas, enemigos nuevos, culturas
+                                        ricas y personajes llenos de vida.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="card bg-dark text-white" style="border: 0px;">
+                                <img src="/imagenes/horizon-forbidden-west-screenshot-02-disclaimer-02oct20.png"
+                                    class="card-img" alt="...">
+                                <div class="card-body bg-dark">
+
+                                    <h5 class="card-title text-white">Una majestuosa frontera</h5>
+                                    <p class="card-text text-white">Recorre bosques frondosos, ciudades hundidas y
+                                        montañas imponentes en el futuro lejano de un continente estadounidense
+                                        desolado.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 p-3">
+                            <div class="card bg-dark text-white" style="border: 0px;">
+                                <img src="/imagenes/horizon-forbidden-west-screenshot-03-disclaimer-02oct20.png"
+                                    class="card-img" alt="...">
+                                <div class="card-body bg-dark">
+                                    <h5 class="card-title text-white">Enfréntate a nuevos peligros</h5>
+                                    <p class="card-text text-white">Lucha en batallas estratégicas contra máquinas
+                                        enormes y los enemigos humanos que las controlan; usa armas, equipo y trampas
+                                        improvisadas con las piezas que encuentres.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 p-3">
+                            <div class="card bg-dark text-white" style="border: 0px;">
+                                <img src="/imagenes/horizon-forbidden-west-screenshot-01-disclaimer-02oct20.png"
+                                    class="card-img" alt="...">
+                                <div class="card-body bg-dark">
+
+                                    <h5 class="card-title text-white">Revela misterios sorprendentes</h5>
+                                    <p class="card-text text-white">Descubre el secreto del inminente colapso de la
+                                        Tierra y saca a la luz un capítulo oculto del pasado lejano... que cambiará a
+                                        Aloy para siempre..</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--  Seccion: Lista de juego PlayStation  -->
+        <div class="lanzamiento p-3 container">
+            <div style="
+            color: white;
+            font-size: px;
+        ">
+                <p>
+                    Nuevos lanzamientos
+                </p>
+                <p>
+                    Juegos excelentes de PS5 y PS4 disponibles ahora
+                </p>
+            </div>
+            <div class="container d-flex flex-wrap justify-content-center">
+                <div class="row text-center">
+                    <div class="col-6 p-3">
+                        <div class="card bg-dark text-white" style="border: 0px;">
+                            <img src="/imagenes/knockout-city-store-art-01-31mar21$en.jpg" class="card-img" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title text-white text-center">Knockout City</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 p-3">
+                        <div class="card bg-dark text-white" style="border: 0px;">
+                            <img src="/imagenes/nier-replicant-ver-1-22474487139-store-art-01-31mar21$en.jpg"
+                                class="card-img" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title text-white text-center">NieR Replicant ver.1.22474487139...</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 p-3">
+                        <div class="card bg-dark text-white" style="border: 0px;">
+                            <img src="/imagenes/returnal-square-art-01-ps5-en-16dec20.jpg" class="card-img" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title text-white text-center">Returnal</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 p-3">
+                        <div class="card bg-dark text-white" style="border: 0px;">
+                            <img src="/imagenes/judgment-store-art-01-31mar21$en.jpg" class="card-img" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title text-white text-center">Judgment</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 p-3">
+                        <div class="card bg-dark text-white" style="border: 0px;">
+                            <img src="/imagenes/oddworld-soulstorm-pack-shot-01-en-14aug20.jpg" class="card-img"
+                                alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title text-white text-center">Oddworld: Soulstorm</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 p-3">
+                        <div class="card bg-dark text-white" style="border: 0px;">
+                            <img src="/imagenes/kena-bridge-of-spirits-store-art-01-31mar21$en.jpg" class="card-img"
+                                alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title text-white text-center">Kena: Bridge of Spirits</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 p-3">
+                        <div class="card bg-dark text-white" style="border: 0px;">
+                            <img src="/imagenes/ratchet-and-clank-rift-apart-store-art-01-31mar21$en.jpg"
+                                class="card-img" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title text-white text-center">Ratchet & Clank: Rift Apart</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 p-3">
+                        <div class="card bg-dark text-white" style="border: 0px;">
+                            <img src="/imagenes/horizon-forbidden-west-store-art-01-01apr21$en.jpg" class="card-img"
+                                alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title text-white text-center">Horizon Forbidden West</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--  Seccion: XBOX  -->
+    <section class="xbox text-center">
+        <img id="xbox" class="logo_xbox" src="/imagenes/xboxlogo.jpg" alt="" style="
+        width: 350px;
+    ">
+        <h1 class="text-center">CONSOLAS </p>
+            <h1 class="text-center"> XBOX</h1>
+            <!--  Consolas XBOX  -->
+            <div class="imagen_xbox content d-flex justify-content-center">
+                <img src="/imagenes/xbox_console.jpg" alt="">
+            </div>
+            <div class="container mt-2">
+                <div class="titulo_consola row text-center">
+                    <div class="col-6">
+
+                        <h3>XBOX SERIES X</h3>
+                        <p>La Xbox más rápida y más potente de la historia.</p>
+                        <button type="button" class="btn btn-outline-success">MÁS INFORMACIÓN</button>
+
+                    </div>
+                    <div class="col-6">
+
+                        <h3>XBOX SERIES S</h3>
+                        <p>Rendimiento de nueva generación en la Xbox más pequeña de la historia.</p>
+                        <button type="button" class="btn btn-outline-success">MÁS INFORMACIÓN</button>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <div class="card img_superior mt-5" style="background-color: black; border: 0px;">
+        <img class="" src="/imagenes/superior0af269de-4b1b-4cce-9319-359734673e54.jpg" alt="">
+    </div>
+    <!--  Juego: XBOX Yakuza -->
+    <section class="yakuza list-group text-white text-center m-0">
+        <h3>Yakuza: Like a Dragon</h3>
+        <div class="card" style="border: 0px;background-color: black;">
+            <video src="/Videos/701822f4-35fc-4b5f-bec1-f5579030be80.mp4" type="video/mp4" autoplay loop></video>
+        </div>
+        <div class="container">
+            <p>ELÉVATE COMO UN DRAGÓN</p>
+            <p>Conviértete en Ichiban Kasuga, un yakuza de bajo nivel a quien el hombre en quien más confiaba ha dejado
+                al borde de la muerte. Recupera tu legendario bate y prepárate para destrozar algunos cráneos del
+                inframundo en un dinámico juego de rol ambientado en el Japón moderno.</p>
+            <p>Plataformas:</p>
+            <p>Xbox Series X|S ● Xbox One ● PC Windows 10</p>
+        </div>
+    </section>
+    <!--  Juego: XBOX Yakuza -->
+    <p class="d-flex" style="
+    justify-content: center;background-color: black; border: 0px; margin: 0px;
+">
+        <a class="btn btn-btn-lg-white" data-bs-toggle="collapse" href="#collapseExample" role="button"
+            aria-expanded="false" aria-controls="collapseExample"
+            style="color: #ffffff; background-color: #107c10; border: 0;">
+            INFORMACION SOBRE EL JUEGO
+        </a>
+        <!--  Collapse Info juego Yakuza -->
+    </p>
+    <div class="collapse" id="collapseExample">
+        <div class="info_yakuza card card-body list-group text-center text-white"
+            style="font-size: 12px; align-items: center;">
+            <div class="info_yakuza container flex-wrap">
+                <div class="row text-center">
+                    <div class="col-6 p-3">
+                        <div class="card bg-dark text-white" style="border: 0px;">
+                            <img src="/imagenes/8484e20f-dab9-45f3-976f-08fd1cc06284.jpg" class="card-img" alt="...">
+                        </div>
+                    </div>
+                    <div class="col-6 p-3">
+                        <div class="card bg-dark text-white" style="border: 0px;">
+                            <img src="/imagenes/95f5f13b-0c73-4e6a-9c24-0bae98988777.jpg" class="card-img" alt="...">
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <h4>Detalles del juego</h4>
+                        <p>Ichiban Kasuga, un matón de bajo rango de una familia yakuza de poca monta de Tokio cumple
+                            una pena de prisión de 18 años acusado de un delito que no cometió. Sin perder nunca la fe,
+                            cumple su pena a rajatabla y regresa a la sociedad para descubrir que nadie lo esperaba en
+                            el exterior y que su clan ha sido destruido por el hombre al que más respetaba.
+
+                            Ichiban se propone descubrir la verdad de la traición sufrida por su familia y recuperar su
+                            vida, y para ello recluta a un heterogéneo grupo de marginados de la sociedad: Adachi, un
+                            policía sin escrúpulos, Nanba, un exenfermero sin hogar, y Saeko, una camarera con una
+                            misión. Juntos, se ven envueltos en un conflicto que se gesta bajo la superficie de
+                            Yokohama, y deberán superarse para convertirse en los héroes que nunca esperaron ser.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card imagen_base" style="border: 0px;">
+        <img src="/imagenes/0af269de-4b1b-4cce-9319-359734673e54.jpg" alt="">
+    </div>
+    <!--  NOVEDADES XBOX -->
+    <section class="juegos_xbox" style="margin-top: 100px;">
+        <div class="row m-0" style="width: 100%;">
+            <div class="col-12 p-0 m-0">
+                <div class="card" style="width: 100;border: none;">
+                    <img src="/imagenes/cf9d7a24-e400-4e35-8c50-e3360fbf1b7d (1).jpg" class="card-img-top img-fluid"
+                        alt="...">
+                    <div class="card-body p-3 text-center">
+                        <h5 class="card-title">Experimenta el siguiente nivel de control</h5>
+                        <p class="card-text">Mejora tu juego con los nuevos gatillos con textura, una cruceta
+                            híbrida y un botón específico para compartir</p>
+                        <a href="#" class="btn btn-primary" style="background-color: #107c10">Comprar Ahora</a>
+                    </div>
+                </div>
+                <div class="card" style="max-width: 100;border: 0">
+                    <div class="row g-0 list-group">
+                        <div class="col">
+                            <img src="/imagenes/c3358ceb-eecd-416c-8905-7f7eb0a8e152.jpg"
+                                class="rounded-start img-fluid" alt="..." style="
+                            width: 1005px; max-height: 516px;">
+                        </div>
+                        <div class="col">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Forza Horizon 5</h5>
+
+                                <a href="#" class="btn btn-primary" style="background-color: #107c10">Reservar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-12 p-0">
+                <div class="card" style="max-width: 100;border: none;">
+                    <div class="row g-0">
+                        <div class="col-12" style="background-color: #107c10 ;">
+                            <div class="card-body text-center text-white">
+                                <h5 class="card-title">Obtén 3 meses de Ultimate por $39</h5>
+                                <p class="card-text ">Incluye más de 100 juegos de alta calidad, Xbox Live Gold, EA
+                                    Play y otras ventajas</p>
+                                <div class="alert" role="alert">
+                                    <a href="#" class="alert-link" style="color: white;">Unite Ahora</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <img src="/imagenes/4d7b537d-db3e-44f2-ac84-b9806b7fcdfb (1).jpg" class="img-fluid"
+                                alt="...">
+                        </div>
+                    </div>
+                </div>
+                <div class="card" style="width: 100;border: none;">
+                    <div class="card-body p-3 text-center">
+                        <h5 class="card-title">Experimenta el siguiente nivel de control</h5>
+                        <p class="card-text">Mejora tu juego con los nuevos gatillos con textura, una cruceta
+                            híbrida y un botón específico para compartir</p>
+                        <a href="#" class="btn btn-primary" style="background-color: #107c10">Conseguilo Ahora</a>
+                    </div>
+                    <img src="/imagenes/e09fb10c-5519-43b7-ba7e-c8755ca3141c.jpg" class="card-img-top img-fluid"
+                        alt="..." style="
+                    width: 1040px;
+                ">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="text-center text-primary"
+        style="background-image: url(/imagenes/ps5.jpg);background-color: rgba(0, 0, 0, 0.2);background-size: cover;">
+        <!-- Grid container -->
+        <div class="container p-4">
+            <!-- Section: Social media -->
+            <div class="mb-4">
+                <!-- Facebook -->
+                <a class="btn btn-outline-dark btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-facebook-f"></i></a>
+
+                <!-- Twitter -->
+                <a class="btn btn-outline-dark btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-twitter"></i></a>
+
+                <!-- Google -->
+                <a class="btn btn-outline-dark btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-google"></i></a>
+
+                <!-- Instagram -->
+                <a class="btn btn-outline-dark btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-instagram"></i></a>
+            </div>
+            <!-- Section: Social media -->
+
+            <!-- Section: Form -->
+            <section class="">
+                <form action="">
+                    <!--Grid row-->
+                    <div class="row d-flex justify-content-center">
+
+                        <!--Grid column-->
+                        <div class="col-6">
+                            <!-- Email input -->
+                            <div class="form-outline form-white">
+                                <input type="email" id="form5Example2" class="form-control" />
+                                <button type="submit" class="btn btn-outline-dark mt-2">
+                                    Suscribirse
+                                </button>
+                            </div>
+
+                        </div>
+                    </div>
+        </div>
+        <!--Grid row-->
+        </form>
+        </section>
+        <!-- Section: Form -->
+
+        <!-- Section: Text -->
+        <section class="mb-4">
+            <p>
+
+            </p>
+        </section>
+        <!-- Section: Text -->
+
+        <!-- Section: Links -->
+        <section class="">
+            <!--Grid row-->
+            <div class="row footer_texto text-dark m-0">
+                <!--Grid column-->
+                <div class="col-12">
+                    <h5 class="text-uppercase">Sobre nosotros</h5>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-12 mt-3">
+                    <h5 class="text-uppercase">PlayStation</h5>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-12 mt-3">
+                    <h5 class="text-uppercase">Xbox</h5>
+                </div>
+                <!--Grid column-->
+
+            </div>
+            <!--Grid row-->
+        </section>
+        <!-- Section: Links -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3 text-dark" style="background-color: rgba(76, 146, 238, 0.2);">
+            © 2021 Copyright:
+            <a class="text-white" href="https://mdbootstrap.com/">Leroy</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>

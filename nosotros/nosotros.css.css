@@ -1,0 +1,157 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url("/imagenes/48.jpg");
+}
+
+/* NAVBAR///////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.navbarnosotros {
+    background-color: transparent;
+    padding: 15px;
+}
+
+.estiloletra {
+    color: black;
+}
+
+.nav-item {
+    border-style: none;
+    border-radius: 12px;
+    background-color: rgb(255, 255, 255);
+    margin: 5px 15px;
+}
+
+.imagenprincipal {
+    height: 500px;
+    background-image: url("/imagenes/d215471c-7e39-4e58-a4b0-90ac4ad2667f.jpg");
+    background-size: 100%;
+    background-position: 50% 35%;
+}
+/* CONTENIDO PRINCIPAL//////////////////////////////////////////////////////////////////////////////////////////// */
+.nosotros {
+    margin: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    align-items: center;
+    padding-top: 8px;
+    /* background-color: #107C10 */
+}
+
+.fotosnosotros {
+    margin-top: 8px;
+    background-image: url("/imagenes/35.jpg");
+
+}
+
+.foto1 {
+    max-width: 241px;
+    max-height: 180px;
+    min-width: 241px;
+    min-height: 180px;
+}
+
+.foto2 {
+    max-width: 241px;
+    max-height: 180px;
+    min-width: 241px;
+    min-height: 180px;
+}
+
+.foto3 {
+    max-width: 241px;
+    max-height: 180px;
+    min-width: 241px;
+    min-height: 180px;
+}
+
+.titulos {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.texto-justificado {
+    text-align: justify;
+}
+
+.titulos h1 {
+    color: white;
+    font-size: 5rem;
+}
+
+.titulos p {
+    color: white;
+    font-size: 2rem;
+}
+/* FOOTER///////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+footer {
+    margin-top: auto;
+}
+
+.social-icon {
+    color: rgb(255, 255, 255);
+    font-size: 4rem;
+    margin: 4px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.socialmagenypadin {
+    padding: 25px;
+}
+
+.pruebafondo {
+    background-image: linear-gradient(
+            324deg,
+            transparent 0%,
+            transparent 45%,
+            rgba(186, 186, 186, 0.04) 45%,
+            rgba(186, 186, 186, 0.04) 47%,
+            transparent 47%,
+            transparent 100%
+        ),
+        linear-gradient(
+            208deg,
+            transparent 0%,
+            transparent 40%,
+            rgba(186, 186, 186, 0.04) 40%,
+            rgba(186, 186, 186, 0.04) 80%,
+            transparent 80%,
+            transparent 100%
+        ),
+        linear-gradient(
+            202deg,
+            transparent 0%,
+            transparent 20%,
+            rgba(186, 186, 186, 0.04) 20%,
+            rgba(186, 186, 186, 0.04) 40%,
+            transparent 40%,
+            transparent 100%
+        ),
+        linear-gradient(
+            338deg,
+            transparent 0%,
+            transparent 10%,
+            rgba(186, 186, 186, 0.04) 10%,
+            rgba(186, 186, 186, 0.04) 72%,
+            transparent 72%,
+            transparent 100%
+        ),
+        linear-gradient(90deg, rgb(0, 0, 0), rgb(0, 0, 0));
+}
+
+.derechosautor {
+    color: white;
+    text-align: center;
+    margin-top: 16px;
+}
+.dados {
+    max-width: 100px;
+    max-height: 100px;
+}

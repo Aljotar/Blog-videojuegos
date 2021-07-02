@@ -1,0 +1,80 @@
+body{
+    background-image: url(/imagenes/91657.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.banner{
+    padding: 0px;
+}
+section{
+    margin-top: 50px;
+}
+h1{
+    font-family: 'Roboto Mono', monospace;
+    margin-bottom: 2rem;
+}
+.formulario{
+    font-size: 1.5rem;
+    color: cyan;
+}
+.boton{
+    margin-top: 20px; 
+    margin-bottom: 50px;
+}
+    <footer class="text-center text-primary"
+        style="background-color: #1D1D1B">
+        <!-- Grid container -->
+        <div class="container p-4">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+                <!-- Facebook -->
+                <a class="btn btn-outline-dark btn-floating m-1 text-white" href="#!" role="button"><i
+                        class="fab fa-facebook-f"></i></a>
+
+                <!-- Twitter -->
+                <a class="btn btn-outline-dark btn-floating m-1 text-white" href="#!" role="button"><i
+                        class="fab fa-twitter"></i></a>
+
+                <!-- Google -->
+                <a class="btn btn-outline-dark btn-floating m-1 text-white" href="#!" role="button"><i
+                        class="fab fa-google"></i></a>
+
+                <!-- Instagram -->
+                <a class="btn btn-outline-dark btn-floating m-1 text-white" href="#!" role="button"><i
+                        class="fab fa-instagram"></i></a>
+            </section>
+            <!-- Section: Social media -->
+
+            <!-- Section: Form -->
+            <section class="">
+                <form action="">
+                    <!--Grid row-->
+                    <div class="row d-flex justify-content-center">
+
+                        <!--Grid column-->
+                        <div class="col-6">
+                            <!-- Email input -->
+                            <div class="form-outline form-white">
+                                <input type="email" id="form5Example2" class="form-control" />
+                                <button type="submit" class="btn btn-outline-dark mt-2 text-white">
+                                    Suscribirse
+                                </button>
+                            </div>
+
+                        </div>
+                    </div>
+        </div>
+        <!--Grid row-->
+        </form>
+
+        <!-- Copyright -->
+        <div class="text-center p-3 text-white" style="background-color: rgba(78, 80, 82, 0.2);">
+            © 2021 Copyright:
+            <a class="text-white" href="https://mdbootstrap.com/">Leroy</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+
