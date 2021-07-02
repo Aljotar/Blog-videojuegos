@@ -2,7 +2,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background-image: url("/imagenes/48.jpg");
+    background-image: url("./imagenes/48.jpg");
 }
 
 /* NAVBAR///////////////////////////////////////////////////////////////////////////////////////////////////////// */
@@ -24,7 +24,7 @@ body {
 
 .imagenprincipal {
     height: 500px;
-    background-image: url("/imagenes/d215471c-7e39-4e58-a4b0-90ac4ad2667f.jpg");
+    background-image: url("./imagenes/d215471c-7e39-4e58-a4b0-90ac4ad2667f.jpg");
     background-size: 100%;
     background-position: 50% 35%;
 }
@@ -43,7 +43,7 @@ body {
 
 .fotosnosotros {
     margin-top: 8px;
-    background-image: url("/imagenes/35.jpg");
+    background-image: url("./imagenes/35.jpg");
 
 }
 
