@@ -497,9 +497,11 @@ ul button {
 }
 .img_superior{
     height: 100px;
+    display: none;
 }
 .imagen_base{
     height: 70px;
+    display: none;
     
 }
 
@@ -528,6 +530,7 @@ ul button {
     } 
     .img_superior{
         height: 150px;
+        display: block;
     }
 
 }
@@ -548,14 +551,13 @@ ul button {
     }
     .imagen_base{
         height: 200px;
-        display: none;
+        display: block;
     }
     .lanzamiento .col-6{
         width: 25%;
     }
     .img_superior{
         height: 200px;
-        display: none;
     }
 
 
