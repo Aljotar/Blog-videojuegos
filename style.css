@@ -66,6 +66,7 @@ ul button {
     font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
     color: white;
     width: 170px;
+    height: 50px;
     background-color: rgb(255, 1, 1);
     animation: colorLogin 4s linear infinite;
 }
@@ -449,7 +450,7 @@ ul button {
 .xbox h1{
 
     color: #107c10;
-    font-size: 70px;
+    font-size: 50px;
     font-weight: 900;
     text-shadow: 1px 1px 5px rgb(0, 0, 0);
 
