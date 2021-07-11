@@ -9,7 +9,7 @@ window.addEventListener('scroll',function(){
     if(posicionCarousel < 900){
         animacion.style.animation = 'carousel 1s ease-out'
     }
-    if(posicionPs5 < 720){
+    if(posicionPs5 < 730){
         animacionPs5.style.animation = 'animacion_ps5 2s ease-out'
     }
 })
