@@ -235,7 +235,7 @@ ul button {
     }
 
     80%{
-        opacity: 0.3;
+        opacity: 1;
         transform: translateY(0%);
     }
     100%{
@@ -517,6 +517,46 @@ ul button {
 .juegos_xbox p {
     font-size: 17px;
     font-weight: 700;
+}
+
+@keyframes xboxAnimacion{
+    0%{
+        opacity: 0;
+        transform: translateY(50%);
+    }
+    80%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+@keyframes xboxAnimacion2{
+    0%{
+        opacity: 0;
+        transform: translateX(-50%);
+    }
+    80%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+@keyframes xboxAnimacion3{
+    0%{
+        opacity: 0;
+        transform: translateX(150%);
+    }
+    80%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0%);
+    }
 }
 
 @media (min-width: 576px) {
