@@ -228,6 +228,21 @@ ul button {
     padding: 20px;
 }
 
+@keyframes carousel{
+    0%{
+        opacity: 0;
+        transform: translateY(60%);
+    }
+
+    80%{
+        opacity: 0.3;
+        transform: translateY(0%);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
 .carousel-inner img {
     width: 100%;
     height: 100%;
