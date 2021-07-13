@@ -18,7 +18,7 @@ window.addEventListener('scroll',function(){
     if(posicionCarousel < 900){
         animacion.style.animation = 'carousel 2.5s ease-out'
     }
-    if(posicionPs5 < 730){
+    if(posicionPs5 < 750){
         animacionPs5.style.animation = 'animacion_ps5 2s ease-out'
     }
     if(posicionXbox1 < 950){
